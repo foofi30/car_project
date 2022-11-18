@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Reem+Kufi:wght@700&display=swap');
+body{
+    font-family: 'Cairo', sans-serif;
+    
+}
+.header{
+    background-color: rgb(162, 162, 240);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+
+**********************/* End header  */*************************
+
+/* Start Slider  */
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 47, 49, 0.425);
+    position: absolute;
+    z-index: 1;
+}
+
+/* End Slider  */
+
+/* Start feutures */
+.feutures {
+    margin-top: 75px;
+}
+.feutures h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: rgb(236, 137, 91);
+    color: white;
+
+}
+.feutures p {
+    color: rgb(75, 69, 69);
+    line-height: 1.8;
+}
+
+.our-team {
+    background-color: #eee;
+    padding: 20px;
+    background-image: url(../image/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px blueviolet solid ;
+}
+
+.statistic{
+    background-image:url(../image/mers-car.jpg) ;
+    width: 1348px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    background-attachment: fixed;
+}
+
+.statistic .overlay {
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    height: 100%;
+    padding: 130px;
+}
+
+.statistic .overlay h3 {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color:rgb(88, 167, 241) ;
+    padding-top: 30px;
+    margin-top: 150px;
+   }
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer ul li {
+    list-style: none;
+    }
+
+footer p {
+    color: #eee;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer ul li {
+    color: #eee;
+}
+
+.statistic .overlay p {
+    color: white;
+    font-size: 80px;
+}
+
+.Our_Customers {
+    margin-top: 50px;
+    background-color: #eee;
+    line-height: 200px;
+    background-image: url(../image/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px blueviolet solid ;
+}
+
+.btn-danger {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.btn-danger:hover {
+    background-color: red;
+}
+
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron .blog_info {
+    flex: 2;
+}
+
+.jumbotron .blog_image {
+    flex: 1;
+
+}
+
+.blog_details {
+    line-height: 2;
+    padding: 10px;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.corses img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
